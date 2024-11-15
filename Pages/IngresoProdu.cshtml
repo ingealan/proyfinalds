@@ -1,0 +1,55 @@
+@page
+@model CreateModel
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-4">
+        <h2 class="text-center mb-5">Nuevo Produ</h2>
+
+        @if(Model.ErrorMessage.Length > 0)
+        {
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>@Model.ErrorMessage</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        <form method="post">
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Nombre</label>
+                <div>
+                    <input class="form-control" asp-for="nombre" />
+                    <span asp-validation-for="nombre" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Categoria</label>
+                <div>
+                    <input class="form-control" asp-for="categoria" />
+                    <span asp-validation-for="categoria" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Stock</label>
+                <div>
+                    <input class="form-control" asp-for="stock" />
+                    <span asp-validation-for="stock" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Precio</label>
+                <div>
+                    <input class="form-control" asp-for="precio" />
+                    <span asp-validation-for="precio" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Crear</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

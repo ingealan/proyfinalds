@@ -1,0 +1,34 @@
+@page
+@model pruebadesarrollo.Pages.ProduModel
+
+
+<h1>@ViewData["Title"]</h1>
+<h2 class="text-center mb-3">Listado de Productos</h2>
+<a class="btn btn-primary mb-3"href="/IngresoProdu">Nuevo Producto</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Categoria</th>
+            <th>Stock</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var produ in Model.ProduList)
+        {
+            <tr>
+                <td>@produ.id</td>
+                <td>@produ.nombre</td>
+                <td>@produ.categoria</td>
+                <td>@produ.stock</td>
+                <td>@produ.precio</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="#">Editar</a>
+                    <a class="btn btn-danger btn-sm" href="#">Borrar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
