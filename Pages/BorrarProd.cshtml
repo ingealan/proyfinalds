@@ -1,0 +1,20 @@
+@page
+@model pruebadesarrollo.Pages.BorrarProd
+@{
+    ViewData["Title"] = "BorrarProd";
+}
+
+<div class="mx-auto rounded border p-4" style="width:400px">
+    <h2 class="text-center mb-3">Borrar Persona</h2>
+    <hr>
+    <p>Está seguro de borrar el producto</p>
+    <p>ID producto =@Request.Query["id"]</p>
+    </hr>
+    <form method="post">
+        <div class="row">
+            <div class="col-sm-6 d-grid">
+                <button type="submit" class="btn btn-danger">Borrar</button>
+            </div>
+        </div>
+    </form>
+</div>

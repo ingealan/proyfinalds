@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Estudiante\Documents\pruebadesarrollo
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Estudiante/Documents/pruebadesarrollo/Pages/BorrarProd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9ycmFyUHJvZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Estudiante/Documents/pruebadesarrollo/Pages/EditarProdu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGFyUHJvZHUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Estudiante/Documents/pruebadesarrollo/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
