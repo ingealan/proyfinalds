@@ -1,10 +1,9 @@
 @page
 @model pruebadesarrollo.Pages.ProduModel
 
-
 <h1>@ViewData["Title"]</h1>
 <h2 class="text-center mb-3">Listado de Productos</h2>
-<a class="btn btn-primary mb-3"href="/IngresoProdu">Nuevo Producto</a>
+<a class="btn btn-primary mb-3" href="/IngresoProdu">Nuevo Producto</a>
 <table class="table">
     <thead>
         <tr>
@@ -13,17 +12,18 @@
             <th>Categoria</th>
             <th>Stock</th>
             <th>Precio</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
-        @foreach(var produ in Model.ProduList)
+        @foreach (var produ in Model.ProduList)
         {
             <tr>
                 <td>@produ.id</td>
                 <td>@produ.nombre</td>
                 <td>@produ.categoria</td>
                 <td>@produ.stock</td>
-                <td>@produ.precio</td>
+                <td>@produ.precio.ToString("F2")</td> <!-- Formateando el precio a dos decimales -->
                 <td>
                     <a class="btn btn-primary btn-sm" href="/EditarProdu?id=@produ.id">Editar</a>
                     <a class="btn btn-danger btn-sm" href="/BorrarProd?id=@produ.id">Borrar</a>

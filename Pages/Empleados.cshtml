@@ -1,0 +1,36 @@
+@page
+@model pruebadesarrollo.Pages.EmpleadosModel
+
+<h1>@ViewData["Title"]</h1>
+<h2 class="text-center mb-3">Listado de Empleados</h2>
+<a class="btn btn-primary mb-3" href="/IngresoEmpleado">Nuevo Empleado</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Cargo</th>
+            <th>Fecha Ingreso</th>
+            <th>Salario</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var empleado in Model.EmpleadosList)
+        {
+            <tr>
+                <td>@empleado.id</td>
+                <td>@empleado.nombre</td>
+                <td>@empleado.apellido</td>
+                <td>@empleado.cargo</td>
+                <td>@empleado.fechaIngreso.ToString("dd/MM/yyyy")</td> <!-- Formateando la fecha -->
+                <td>@empleado.salario.ToString("F2")</td> <!-- Formateando el salario a dos decimales -->
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/EditarEmpleado?id=@empleado.id">Editar</a>
+                    <a class="btn btn-danger btn-sm" href="/BorrarEmpleado?id=@empleado.id">Borrar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,15 +1,17 @@
 @page
 @model pruebadesarrollo.Pages.EditarProdu
 @{
-    ViewData["Title"] = "EditarProdu";
+    ViewData["Title"] = "Editar Producto";
 }
 
 <h1>@ViewData["Title"]</h1>
 
 <div class="row">
     <div class="col-md-8 mx-auto rounded border p-4">
-        <h2 class="text-ceter mb-5">Editar Produ</h2>
-        @if(Model.ErrorMessage.Length>0){
+        <h2 class="text-center mb-5">Editar Producto</h2>
+
+        @if(Model.ErrorMessage.Length > 0)
+        {
             <div class="alert alert-danger alert-dismissible fade show" role="alert">
                 <strong>@Model.ErrorMessage</strong>
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -20,9 +22,11 @@
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">ID</label>
                 <div>
+                    <!-- Cambié 'ProductoID' por 'ID' ya que es la propiedad en la clase EditarProdu -->
                     <input class="form-control-plaintext" readonly asp-for="ID" type="text">
                 </div>
             </div>
+
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Nombre</label>
                 <div>
@@ -30,6 +34,7 @@
                     <span asp-validation-for="nombre" class="text-danger"></span>
                 </div>
             </div>
+
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Categoria</label>
                 <div>
@@ -37,6 +42,7 @@
                     <span asp-validation-for="categoria" class="text-danger"></span>
                 </div>
             </div>
+
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Stock</label>
                 <div>
@@ -44,6 +50,7 @@
                     <span asp-validation-for="stock" class="text-danger"></span>
                 </div>
             </div>
+
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Precio</label>
                 <div>

@@ -1,10 +1,25 @@
 ﻿@page
-@model IndexModel
+@model pruebadesarrollo.Pages.IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Página de Inicio";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Alan Solano</h1>
-    <p>12/11/2024</p>
+    <h1 class="display-4">Bienvenido al Sistema de Gestión</h1>
+    <p>Seleccione una opción para continuar:</p>
+    
+    <!-- Acceso a la página de Productos -->
+    <a href="/Produ" class="btn btn-primary btn-">Gestionar Productos</a>
+    
+    <!-- Acceso a la página de Empleados -->
+    <a href="/Empleados" class="btn btn-danger btn">Gestionar Empleados</a>
+</div>
+
+<hr/>
+
+<div class="text-center">
+    <footer>
+        <p>Desarrollado por Alan Solano</p>
+        <p>Fecha: 12/11/2024</p>
+    </footer>
 </div>

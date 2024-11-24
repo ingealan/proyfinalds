@@ -1,0 +1,77 @@
+@page
+@model pruebadesarrollo.Pages.EditarEmpleadoModel
+@{
+    ViewData["Title"] = "Editar Empleado";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-4">
+        <h2 class="text-center mb-5">Editar Empleado</h2>
+
+        @if(Model.ErrorMessage.Length > 0)
+        {
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>@Model.ErrorMessage</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        <form method="post">
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">ID</label>
+                <div>
+                    <!-- El ID es solo lectura, no editable -->
+                    <input class="form-control-plaintext" readonly asp-for="ID" type="text">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Nombre</label>
+                <div>
+                    <input class="form-control" asp-for="nombre" />
+                    <span asp-validation-for="nombre" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Apellido</label>
+                <div>
+                    <input class="form-control" asp-for="apellido" />
+                    <span asp-validation-for="apellido" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Cargo</label>
+                <div>
+                    <input class="form-control" asp-for="cargo" />
+                    <span asp-validation-for="cargo" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Fecha de Ingreso</label>
+                <div>
+                    <input class="form-control" asp-for="fechaIngreso" type="date" />
+                    <span asp-validation-for="fechaIngreso" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Salario</label>
+                <div>
+                    <input class="form-control" asp-for="salario" type="number" step="0.01" min="0" />
+                    <span asp-validation-for="salario" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Editar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
