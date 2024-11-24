@@ -1890,11 +1890,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Patri\\Desktop\\alan\\crud\\pruebadesarrollo\\pruebadesarrollo.csproj",
+      "projectUniqueName": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\pruebadesarrollo.csproj",
       "projectName": "pruebadesarrollo",
-      "projectPath": "C:\\Users\\Patri\\Desktop\\alan\\crud\\pruebadesarrollo\\pruebadesarrollo.csproj",
+      "projectPath": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\pruebadesarrollo.csproj",
       "packagesPath": "C:\\Users\\Patri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Patri\\Desktop\\alan\\crud\\pruebadesarrollo\\obj\\",
+      "outputPath": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Patri\\AppData\\Roaming\\NuGet\\NuGet.Config"
