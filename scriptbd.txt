@@ -1,0 +1,84 @@
+-- 1. Crear la base de datos 'desarrollocrud'
+CREATE DATABASE [desarrollocrud];
+GO
+
+-- 2. Usar la base de datos recién creada
+USE [desarrollocrud];
+GO
+
+/****** Script para la creación de la tabla Productos ******/
+SET ANSI_NULLS ON;
+GO
+
+SET QUOTED_IDENTIFIER ON;
+GO
+
+-- Crear tabla Productos
+CREATE TABLE [dbo].[Productos](
+    -- Definición de columnas
+    [ProductoID] [int] IDENTITY(1,1) NOT NULL,     -- Clave primaria autoincremental
+     -- Nombre del producto
+      NULL,             -- ional)
+    [Precio] [float] NOT NULL,                      -- Precio del producto
+    [Stock] [int] NOT NULL,                         -- Stock disponible
+    [FechaVencimiento] [date] NULL,                 -- Fecha de vencimiento (opcional)
+      NULL,                -- Categoría del producto (o] [date] NOT NULL,                 -- Fecha de ingreso del producto
+      NULL,                  -- Ruta de la imagen del producto (opcional)
+
+    - primaria
+    PRIMARY KEY CLUSTERED 
+    (
+        [ProductoID] ASC
+    ) WITH (
+        PAD_INDEX = OFF, 
+        STATISTICS_NORECOMPUTE = OFF, 
+        IGNORE_DUP_KEY = OFF, 
+        ALLOW_ROW_LOCKS = ON, 
+        ALLOW_PAGE_LOCKS = ON, 
+        OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF
+    ) ON [PRIMARY]
+) ON [PRIMARY];
+GO
+
+
+/****** Script para la creación de la tabla Usuarios ******/
+SET ANSI_NULLS ON;
+GO
+
+SET QUOTED_IDENTIFIER ON;
+GO
+
+-- Crear tabla Usuarios
+CREATE TABLE [dbo].[Usuarios](
+    -- Definición de columnas
+    [UserID] [int] IDENTITY(1,1) NOT NULL,         -- Clave primaria autoincremental
+      NOT NULL,           -- Nombre de usuario
+      NOT NULL,       -- Contraseña en forma de hash
+     -- Rol del usuario (Admin, Usuario, etc.)
+
+ rimaria
+    PRIMARY KEY CLUSTERED 
+    (
+        [Us(
+        PAD_INDEX = OFF, 
+        STATISTICS_NORECOMPUTE = OFF, 
+        IGNORE_DUP_KEY = OFF, 
+        ALLOW_ROW_LOCKS = ON, 
+        ALLOW_PAGE_LOCKS = ON, 
+        OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF
+    ) ON [PRIMARY],
+
+    -- Índice único para el campo Username
+    UNIQUE NONCLUSTERED 
+    (
+        [Username] ASC
+    ) WITH (
+        PAD_INDEX = OFF, 
+        STATISTICS_NORECOMPUTE = OFF, 
+        IGNORE_DUP_KEY = OFF, 
+        ALLOW_ROW_LOCKS = ON, 
+        ALLOW_PAGE_LOCKS = ON, 
+        OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF
+    ) ON [PRIMARY]
+) ON [PRIMARY];
+GO
