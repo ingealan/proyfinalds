@@ -1,0 +1,49 @@
+@page
+@model pruebadesarrollo.Pages.UsuariosModel
+@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Usuarios";
+
+    // Obtener el rol del usuario desde la sesión
+    var userRole = HttpContext.Session.GetString("UsuarioRol");
+
+    // Verificar si el usuario tiene el rol 'Administrador'
+    if (string.IsNullOrEmpty(userRole) || userRole != "Administrador")
+    {
+        // Si no tiene el rol adecuado, redirigir a la página SinSesion
+        Response.Redirect("/SinSesion");
+    }
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<head>
+    <link href="~/css/usuarios.css" rel="stylesheet" />
+</head>
+
+<a class="btn btn-primary mb-3" href="/CrearUsuario">Crear Nuevo Usuario</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Usuario</th>
+            <th>Rol</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model.UsuariosList)
+        {
+            <tr>
+                <td>@usuario.UserID</td>
+                <td>@usuario.Username</td>
+                <td>@usuario.Role</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/EditarUsuario?id=@usuario.UserID">Editar</a>
+                    <a class="btn btn-danger btn-sm" href="/BorrarUsuario?id=@usuario.UserID">Borrar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

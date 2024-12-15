@@ -1,34 +1,83 @@
 @page
 @model pruebadesarrollo.Pages.ProduModel
+@using Microsoft.AspNetCore.Http
 
-<h1>@ViewData["Title"]</h1>
-<h2 class="text-center mb-3">Listado de Productos</h2>
-<a class="btn btn-primary mb-3" href="/IngresoProdu">Nuevo Producto</a>
-<table class="table">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Nombre</th>
-            <th>Categoria</th>
-            <th>Stock</th>
-            <th>Precio</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var produ in Model.ProduList)
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/produ.css" />
+</head>
+<body>
+    @{
+        // Verificar si el usuario tiene un rol válido (Usuario o Administrador)
+        var userRole = HttpContext.Session.GetString("UsuarioRol");
+
+        if (string.IsNullOrEmpty(userRole) || (userRole != "Usuario" && userRole != "Administrador"))
         {
-            <tr>
-                <td>@produ.id</td>
-                <td>@produ.nombre</td>
-                <td>@produ.categoria</td>
-                <td>@produ.stock</td>
-                <td>@produ.precio.ToString("F2")</td> <!-- Formateando el precio a dos decimales -->
-                <td>
-                    <a class="btn btn-primary btn-sm" href="/EditarProdu?id=@produ.id">Editar</a>
-                    <a class="btn btn-danger btn-sm" href="/BorrarProd?id=@produ.id">Borrar</a>
-                </td>
-            </tr>
+            // Si no tiene rol o tiene un rol no válido, redirigir a la página "SinSesion"
+            Response.Redirect("/SinSesion");
         }
-    </tbody>
-</table>
+    }
+
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+        <h2 class="text-center mb-3">Listado de Productos</h2>
+        <a class="btn btn-primary mb-3" href="/IngresoProdu">Nuevo Producto</a>
+
+        <table class="produ-tabla">
+            <thead class="produ-tabla-head">
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Categoría</th>
+                    <th>Stock</th>
+                    <th>Precio</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody class="produ-tabla-body">
+                @foreach (var produ in Model.ProduList)
+                {
+                    <tr>
+                        <td>@produ.id</td>
+                        <td>@produ.nombre</td>
+                        <td>@produ.categoria</td>
+                        <td>@produ.stock</td>
+                        <td>$@produ.precio.ToString("F2")</td>
+                        <td>
+                            <!-- Botón para mostrar la imagen -->
+                            <button class="produ-btn-info" onclick="toggleImage('@produ.id')">Mostrar Imagen</button>
+                            <a href="/EditarProdu?id=@produ.id" class="produ-btn-primary">Editar</a>
+                            <a href="/BorrarProd?id=@produ.id" class="produ-btn-danger">Borrar</a>
+                        </td>
+                    </tr>
+                    <!-- Contenedor de la imagen, inicialmente oculto -->
+                    <tr id="image-container-@produ.id" class="image-container" style="display:none;">
+                        <td colspan="6">
+                            <img src="~/images/@produ.imagen" class="img-fluid" alt="Imagen de @produ.nombre">
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        // Función para mostrar/ocultar la imagen
+        function toggleImage(productId) {
+            var imgContainer = document.getElementById("image-container-" + productId);
+            
+            // Cambiar el estado de visibilidad
+            if (imgContainer.style.display === "none") {
+                imgContainer.style.display = "table-row";  // Mostrar la fila de la imagen
+            } else {
+                imgContainer.style.display = "none";  // Ocultar la fila de la imagen
+            }
+        }
+    </script>
+
+</body>
+</html>

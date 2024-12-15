@@ -1,0 +1,63 @@
+@page
+@model pruebadesarrollo.Pages.EditarUsuarioModel
+@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Editar Usuario";
+
+    // Obtener el rol del usuario desde la sesión
+    var userRole = HttpContext.Session.GetString("UsuarioRol");
+
+    // Verificar si el usuario tiene el rol 'Administrador'
+    if (string.IsNullOrEmpty(userRole) || userRole != "Administrador")
+    {
+        // Si no tiene el rol adecuado, redirigir a la página SinSesion
+        Response.Redirect("/SinSesion");
+    }
+}
+<head>
+    <link href="~/css/editarusu.css" rel="stylesheet" />
+</head>
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="edit-container">
+    <div class="edit-form">
+        <form method="post">
+            <div class="form-group">
+                <label for="username">Usuario</label>
+                <input type="text" class="form-control" id="username" name="username" value="@Model.Username" required readonly />
+            </div>
+
+            <input type="hidden" name="userId" value="@Model.UserID" /> <!-- Campo oculto para UserID -->
+
+            <div class="form-group">
+                <label for="password">Contraseña (Deje en blanco si no desea cambiarla)</label>
+                <input type="password" class="form-control" id="password" name="password" />
+            </div>
+
+            <div class="form-group">
+                <label for="role">Rol</label>
+                <select class="form-control" id="role" name="role" required>
+                    <option value="Administrador">Administrador</option>
+                    <option value="Usuario">Usuario</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Actualizar Usuario</button>
+        </form>
+
+        @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+        {
+            <div class="alert alert-danger mt-2">
+                @Model.ErrorMessage
+            </div>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.SuccessMessage))
+        {
+            <div class="alert alert-success mt-2">
+                @Model.SuccessMessage
+            </div>
+        }
+    </div>
+</div>

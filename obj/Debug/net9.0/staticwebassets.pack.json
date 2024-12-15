@@ -1,12 +1,52 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\pruebadesarrollo.bundle.scp.css",
-      "PackagePath": "staticwebassets\\pruebadesarrollo.ejot16zvq1.bundle.scp.css"
+      "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\agregarprodu.css",
+      "PackagePath": "staticwebassets\\css\\agregarprodu.css"
+    },
+    {
+      "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\agregarusu.css",
+      "PackagePath": "staticwebassets\\css\\agregarusu.css"
+    },
+    {
+      "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\borrarprod.css",
+      "PackagePath": "staticwebassets\\css\\borrarprod.css"
+    },
+    {
+      "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\borrarusu.css",
+      "PackagePath": "staticwebassets\\css\\borrarusu.css"
+    },
+    {
+      "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\editarprod.css",
+      "PackagePath": "staticwebassets\\css\\editarprod.css"
+    },
+    {
+      "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\editarusu.css",
+      "PackagePath": "staticwebassets\\css\\editarusu.css"
+    },
+    {
+      "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\produ.css",
+      "PackagePath": "staticwebassets\\css\\produ.css"
     },
     {
       "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\tienda.css",
+      "PackagePath": "staticwebassets\\css\\tienda.css"
+    },
+    {
+      "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\usuarios.css",
+      "PackagePath": "staticwebassets\\css\\usuarios.css"
     },
     {
       "Id": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\favicon.ico",

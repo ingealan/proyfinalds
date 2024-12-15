@@ -1,59 +1,105 @@
 @page
-@model CreateModel
+@model pruebadesarrollo.Pages.IngresoProduModel
+@using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "Nuevo Producto";
+    
+    // Obtener el rol del usuario desde la sesión
+    var userRole = HttpContext.Session.GetString("UsuarioRol");
+
+    // Verificar si el usuario tiene el rol de "Usuario" o "Administrador"
+    if (string.IsNullOrEmpty(userRole) || (userRole != "Usuario" && userRole != "Administrador"))
+    {
+        // Redirigir a la página SinSesion si el rol no es válido
+        Response.Redirect("/SinSesion");
+    }
 }
 
-<div class="row">
-    <div class="col-md-8 mx-auto rounded border p-4">
-        <h2 class="text-center mb-5">Nuevo Producto</h2>
+<head>
+    <link href="~/css/agregarprodu.css" rel="stylesheet" />
+</head>
 
-        @if(Model.ErrorMessage.Length > 0)
-        {
-            <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                <strong>@Model.ErrorMessage</strong>
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-        }
+<body>
+    <div class="add-product-container">
+        <div class="add-product-form">
+            <h1>@ViewData["Title"]</h1>
 
-        <form method="post">
-            <div class="row mb-3">
-                <label class="col-sm-4 col-form-label">Nombre</label>
-                <div>
-                    <input class="form-control" asp-for="nombre" />
+            <!-- Mensaje de error -->
+            @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+            {
+                <div class="alert alert-danger mt-3">
+                    @Model.ErrorMessage
+                </div>
+            }
+
+            <form method="post" enctype="multipart/form-data">
+                <!-- Nombre del Producto -->
+                <div class="form-group mb-3">
+                    <label for="nombre">Nombre</label>
+                    <input class="form-control" asp-for="nombre" required />
                     <span asp-validation-for="nombre" class="text-danger"></span>
                 </div>
-            </div>
-            
-            <div class="row mb-3">
-                <label class="col-sm-4 col-form-label">Categoría</label>
-                <div>
-                    <input class="form-control" asp-for="categoria" />
+
+                <!-- Categoría -->
+                <div class="form-group mb-3">
+                    <label for="categoria">Categoría</label>
+                    <input class="form-control" asp-for="categoria" required />
                     <span asp-validation-for="categoria" class="text-danger"></span>
                 </div>
-            </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-4 col-form-label">Stock</label>
-                <div>
-                    <input class="form-control" asp-for="stock" type="number" min="0" />
+                <!-- Stock -->
+                <div class="form-group mb-3">
+                    <label for="stock">Stock</label>
+                    <input class="form-control" asp-for="stock" type="number" min="0" required />
                     <span asp-validation-for="stock" class="text-danger"></span>
                 </div>
-            </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-4 col-form-label">Precio</label>
-                <div>
-                    <input class="form-control" asp-for="precio" type="number" step="0.01" min="0" />
+                <!-- Precio -->
+                <div class="form-group mb-3">
+                    <label for="precio">Precio</label>
+                    <input class="form-control" asp-for="precio" type="number" step="0.01" min="0" required />
                     <span asp-validation-for="precio" class="text-danger"></span>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="offset-sm-4 col-sm-4 d-grid">
-                    <button type="submit" class="btn btn-primary">Crear</button>
+                <!-- Imagen del Producto -->
+                <div class="form-group mb-3">
+                    <label for="imagen">Imagen</label>
+                    <input class="form-control" type="file" asp-for="imagen" accept="image/*" id="productImage" />
+                    <span asp-validation-for="imagen" class="text-danger"></span>
                 </div>
-            </div>
-        </form>
+
+                <!-- Vista previa de la imagen -->
+                <div class="form-group mb-3">
+                    <img id="imagePreview" class="img-producto" style="display:none;" />
+                </div>
+
+                <!-- Botón de Crear Producto -->
+                <div class="form-group mb-3">
+                    <button type="submit" class="add-product-boton">Crear Producto</button>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- Script para previsualizar la imagen cargada -->
+    <script>
+        document.getElementById('productImage').addEventListener('change', function (e) {
+            const file = e.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function (event) {
+                const imgPreview = document.getElementById('imagePreview');
+                imgPreview.style.display = 'block';
+                imgPreview.src = event.target.result;
+            };
+
+            if (file) {
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+</body>

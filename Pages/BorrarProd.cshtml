@@ -1,21 +1,37 @@
 @page
 @model pruebadesarrollo.Pages.BorrarProd
+@using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "Borrar Producto";
-}
 
-<div class="mx-auto rounded border p-4" style="width:400px">
-    <h2 class="text-center mb-3">Borrar Producto</h2>
-    <hr>
-    <p>¿Está seguro de borrar el producto?</p>
-    <p>ID producto: @Model.ID</p> <!-- Mostramos el ID del producto recibido desde el PageModel -->
-    </hr>
-    <form method="post">
-        <div class="row">
-            <div class="col-sm-6 d-grid">
-                <!-- Botón de borrado que ejecutará el OnPost -->
-                <button type="submit" class="btn btn-danger">Borrar</button>
+    // Obtener el rol del usuario desde la sesión
+    var userRole = HttpContext.Session.GetString("UsuarioRol");
+
+    // Verificar si el usuario tiene un rol válido (Usuario o Administrador)
+    if (string.IsNullOrEmpty(userRole) || (userRole != "Administrador" && userRole != "Usuario"))
+    {
+        // Redirigir a la página SinSesion si el rol no es válido
+        Response.Redirect("/SinSesion");
+    }
+}
+<head>
+    <link href="~/css/borrarprod.css" rel="stylesheet" />
+</head>
+
+<div class="delete-product-container">
+    <div class="delete-product-form">
+        <h2>@ViewData["Title"]</h2>
+        <hr />
+        <p>¿Está seguro de borrar el producto?</p>
+        <p><strong>ID producto:</strong> @Model.ID</p> <!-- Mostramos el ID del producto recibido desde el PageModel -->
+        
+        <form method="post">
+            <div class="row">
+                <div class="col-sm-6 d-grid">
+                    <!-- Botón de borrado que ejecutará el OnPost -->
+                    <button type="submit" class="delete-product-button">Borrar</button>
+                </div>
             </div>
-        </div>
-    </form>
+        </form>
+    </div>
 </div>

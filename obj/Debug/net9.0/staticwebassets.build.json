@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5rtpIMrE9NttqlpNV1mgayUQbfTm9qezof4Lai68CLw=",
+  "Hash": "jhAwmbKOxEHCFX3E4XRJvek09aOaCfr75PuPU1K2ESk=",
   "Source": "pruebadesarrollo",
   "BasePath": "_content/pruebadesarrollo",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\02uhtzie1j-gkhlrl1b8g.gz",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/borrarusu#[.{fingerprint=gkhlrl1b8g}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\borrarusu.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6sz3amo8ez",
+      "Integrity": "GkaNmQOUaV+OyvyAWhMrEV5xG5HB+6KAfnqIIsDGW3A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\borrarusu.css"
+    },
     {
       "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\12q2ma55l5-5p029spbuu.gz",
       "SourceId": "pruebadesarrollo",
@@ -185,6 +206,27 @@
       "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\4d3g3skde1-7pdpwe6z68.gz",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/agregarprodu#[.{fingerprint=7pdpwe6z68}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\agregarprodu.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "y2ps9omqbp",
+      "Integrity": "+lZn7vIqL2Mu5rU3Qq3PoWUsXB5uHZNdXQaGqZnE6N8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\agregarprodu.css"
+    },
+    {
       "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\4yj6lyebdt-c2nslu3uf3.gz",
       "SourceId": "pruebadesarrollo",
       "SourceType": "Discovered",
@@ -204,6 +246,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\540vl3h71d-0ybvdcx5ti.gz",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/editarusu#[.{fingerprint=0ybvdcx5ti}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\editarusu.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ab3lqtioc7",
+      "Integrity": "+u2ksNEjMCTbUgjQpjNwb64zPlvAm7aaw04cRfOIFt4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\editarusu.css"
     },
     {
       "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\548x49sttp-ay5nd8zt9x.gz",
@@ -267,6 +330,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\7944882e39-msr13x47vv.gz",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/index#[.{fingerprint=msr13x47vv}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\index.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "i6xf58sphm",
+      "Integrity": "RmUMtmgVusXTKtOJgvd6eFNvUF2DbnYN7shY4avgVbU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\index.css"
     },
     {
       "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\7k341ourht-4908xmbfjr.gz",
@@ -372,6 +456,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\axh5jt7v7h-aopi0t39u0.gz",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/login#[.{fingerprint=aopi0t39u0}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\login.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "b5mq1v3doa",
+      "Integrity": "n98MUF+VkWketdb7nmY1keVCeVpLoJOkx7SfwThutoo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\login.css"
     },
     {
       "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\b8ctlrcr4t-ophe14yye5.gz",
@@ -563,6 +668,27 @@
       "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\fwx98hg7py-qjq2jndc0h.gz",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/usuarios#[.{fingerprint=qjq2jndc0h}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\usuarios.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "eu95pxpxnv",
+      "Integrity": "Fm5F0Jjj+4Z6EbWwpJW0Tpf3AdISUksZEVR9Hj0wwcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\usuarios.css"
+    },
+    {
       "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\fzv2ggue25-okkk44j0xs.gz",
       "SourceId": "pruebadesarrollo",
       "SourceType": "Discovered",
@@ -605,6 +731,48 @@
       "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\h4vreof5zx-wal7mflb5l.gz",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/tienda#[.{fingerprint=wal7mflb5l}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\tienda.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zu818ulke4",
+      "Integrity": "G3NEh/wIr+B74Vg2Jm4uHjhSfDS4ceXN1c7XI/55EZM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\tienda.css"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\i7gxhoamba-91bgwmyqn0.gz",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/editarprod#[.{fingerprint=91bgwmyqn0}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\editarprod.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "16wo17sady",
+      "Integrity": "2RU/OmhmztEpV7K6XdoSVG3QU1f63ARuHeyN9CuSuYc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\editarprod.css"
+    },
+    {
       "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\ia4s9hg263-fctod5rc9n.gz",
       "SourceId": "pruebadesarrollo",
       "SourceType": "Discovered",
@@ -645,27 +813,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\ivnbt8dko8-ejot16zvq1.gz",
-      "SourceId": "pruebadesarrollo",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/pruebadesarrollo",
-      "RelativePath": "pruebadesarrollo#[.{fingerprint=ejot16zvq1}]?.styles.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\bundle\\pruebadesarrollo.styles.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "kivewq33g9",
-      "Integrity": "9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\bundle\\pruebadesarrollo.styles.css"
     },
     {
       "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\jfe5jwadzw-n5w6o92d9r.gz",
@@ -771,27 +918,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\mp0rtfiz09-ejot16zvq1.gz",
-      "SourceId": "pruebadesarrollo",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/pruebadesarrollo",
-      "RelativePath": "pruebadesarrollo#[.{fingerprint=ejot16zvq1}]!.bundle.scp.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\pruebadesarrollo.bundle.scp.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "kivewq33g9",
-      "Integrity": "9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\pruebadesarrollo.bundle.scp.css"
     },
     {
       "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\nbqc2fcxgn-2yn17lgxub.gz",
@@ -983,6 +1109,48 @@
       "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\r50sp04rmu-q0xzzomedc.gz",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/produ#[.{fingerprint=q0xzzomedc}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\produ.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xp4k75thfl",
+      "Integrity": "GwAPYYL+OujlGWU2WKZOFBf03YvLxnZ3W1UI7X5vOUg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\produ.css"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\r83hxv5qn4-8nt8au56jc.gz",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/agregarusu#[.{fingerprint=8nt8au56jc}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\agregarusu.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "qgtz1g1gyp",
+      "Integrity": "Fo8JzJM1j1andR02J6JHCtJGzDIseF4waJCQa5acFGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\agregarusu.css"
+    },
+    {
       "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\rcihfvcj4u-vy0bq9ydhf.gz",
       "SourceId": "pruebadesarrollo",
       "SourceType": "Discovered",
@@ -1004,12 +1172,12 @@
       "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\rkys0ruw7e-c2tiyv64ts.gz",
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\rkys0ruw7e-faaebj49nv.gz",
       "SourceId": "pruebadesarrollo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/pruebadesarrollo",
-      "RelativePath": "css/site#[.{fingerprint=c2tiyv64ts}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=faaebj49nv}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1018,8 +1186,8 @@
       "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "k7c8dvf5bm",
-      "Integrity": "0ChpwSr6wHxXaZSBhjJbMcruDwPfyLjAJfSdIwHYoS0=",
+      "Fingerprint": "6vc5t433n1",
+      "Integrity": "nnKnLFc3Vc3f1oEPneuoG6/fDpyUDEhh0cumE8U6Lfk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\site.css"
@@ -1086,6 +1254,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\ugr2lbe4v3-6k69ihthur.gz",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/borrarprod#[.{fingerprint=6k69ihthur}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\borrarprod.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hxsuxdfd7o",
+      "Integrity": "C83P8LFHDJGbNqJ/8HOwYKi3pmZFm0C34qPRMgkRFJs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\borrarprod.css"
     },
     {
       "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\uzazkjtdla-48y08845bh.gz",
@@ -1298,46 +1487,193 @@
       "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\bundle\\pruebadesarrollo.styles.css",
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\agregarprodu.css",
       "SourceId": "pruebadesarrollo",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\",
       "BasePath": "_content/pruebadesarrollo",
-      "RelativePath": "pruebadesarrollo#[.{fingerprint}]?.styles.css",
+      "RelativePath": "css/agregarprodu#[.{fingerprint}]?.css",
       "AssetKind": "All",
-      "AssetMode": "CurrentProject",
+      "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "ejot16zvq1",
-      "Integrity": "hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc=",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7pdpwe6z68",
+      "Integrity": "m0m+yE9SudMO9t/whMHWZG9HwTnjEC+btL5OpWDOotg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\bundle\\pruebadesarrollo.styles.css"
+      "OriginalItemSpec": "wwwroot\\css\\agregarprodu.css"
     },
     {
-      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\pruebadesarrollo.bundle.scp.css",
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\agregarusu.css",
       "SourceId": "pruebadesarrollo",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\",
       "BasePath": "_content/pruebadesarrollo",
-      "RelativePath": "pruebadesarrollo#[.{fingerprint}]!.bundle.scp.css",
+      "RelativePath": "css/agregarusu#[.{fingerprint}]?.css",
       "AssetKind": "All",
-      "AssetMode": "Reference",
+      "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "ejot16zvq1",
-      "Integrity": "hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc=",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8nt8au56jc",
+      "Integrity": "FJpJR6Rl/egOlc4PRJOIvvh4R3TTXY2N3BI6S+d/4kM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\pruebadesarrollo.bundle.scp.css"
+      "OriginalItemSpec": "wwwroot\\css\\agregarusu.css"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\borrarprod.css",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/borrarprod#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6k69ihthur",
+      "Integrity": "ijAWEJEp8XWjEaSXPeUsJVlzgMrYepGXGKdmfWVBnIE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\borrarprod.css"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\borrarusu.css",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/borrarusu#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gkhlrl1b8g",
+      "Integrity": "MIuWyHjmJDh7pu/vn+o+iRmPCAud85bqvPXbR5lQTEM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\borrarusu.css"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\editarprod.css",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/editarprod#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "91bgwmyqn0",
+      "Integrity": "I4ycPgIVr/7ggpFAhYXV/Q7eEWgiGegsnQKEDGytkAA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\editarprod.css"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\editarusu.css",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/editarusu#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0ybvdcx5ti",
+      "Integrity": "OHtgbv50CBIId/BAHgjqabQsrlRmDdezacboxm9p9SE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\editarusu.css"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\index.css",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "msr13x47vv",
+      "Integrity": "9kk4+r2Y6KMyKYVM8ZGnm+H3nBmA2CJ2nCjii3hfAOo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\login.css",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aopi0t39u0",
+      "Integrity": "hqliaZvE+linb1WRk3jb4Adkzd/bcTi/juIsOiUWta0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\produ.css",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/produ#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q0xzzomedc",
+      "Integrity": "FivmCPOtVl+/dGm9QxODV7dox6QI7YRyi19BwRdC/pk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\produ.css"
     },
     {
       "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\site.css",
@@ -1354,11 +1690,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "faaebj49nv",
+      "Integrity": "l8ItWK2uX8F4WDGa4IxmtHKRD4OQ6FmvDqMNRvTddq0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\tienda.css",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/tienda#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wal7mflb5l",
+      "Integrity": "mOkabKi8rYJ+0pZEWBnqq1DgojdDWf22AqsUOjM/Fv4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\tienda.css"
+    },
+    {
+      "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\usuarios.css",
+      "SourceId": "pruebadesarrollo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\",
+      "BasePath": "_content/pruebadesarrollo",
+      "RelativePath": "css/usuarios#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qjq2jndc0h",
+      "Integrity": "Go6/zu+OVTm30PMcCIxodIpqSq+Btidk/Uab9p0Y9hs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\usuarios.css"
     },
     {
       "Identity": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\favicon.ico",
@@ -2602,13 +2980,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\rkys0ruw7e-c2tiyv64ts.gz",
+      "Route": "css/agregarprodu.7pdpwe6z68.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\4d3g3skde1-7pdpwe6z68.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004273504274"
+          "Quality": "0.001002004008"
         }
       ],
       "ResponseHeaders": [
@@ -2618,15 +2996,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "233"
+          "Value": "997"
         },
         {
           "Name": "ETag",
-          "Value": "\"0ChpwSr6wHxXaZSBhjJbMcruDwPfyLjAJfSdIwHYoS0=\""
+          "Value": "\"+lZn7vIqL2Mu5rU3Qq3PoWUsXB5uHZNdXQaGqZnE6N8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 16:26:48 GMT"
+          "Value": "Sat, 14 Dec 2024 22:38:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2646,26 +3024,2700 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "W/\"m0m+yE9SudMO9t/whMHWZG9HwTnjEC+btL5OpWDOotg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "7pdpwe6z68"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/agregarprodu.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-m0m+yE9SudMO9t/whMHWZG9HwTnjEC+btL5OpWDOotg="
         }
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
+      "Route": "css/agregarprodu.7pdpwe6z68.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\agregarprodu.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m0m+yE9SudMO9t/whMHWZG9HwTnjEC+btL5OpWDOotg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:38:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7pdpwe6z68"
+        },
+        {
+          "Name": "label",
+          "Value": "css/agregarprodu.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m0m+yE9SudMO9t/whMHWZG9HwTnjEC+btL5OpWDOotg="
+        }
+      ]
+    },
+    {
+      "Route": "css/agregarprodu.7pdpwe6z68.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\4d3g3skde1-7pdpwe6z68.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+lZn7vIqL2Mu5rU3Qq3PoWUsXB5uHZNdXQaGqZnE6N8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:38:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7pdpwe6z68"
+        },
+        {
+          "Name": "label",
+          "Value": "css/agregarprodu.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+lZn7vIqL2Mu5rU3Qq3PoWUsXB5uHZNdXQaGqZnE6N8="
+        }
+      ]
+    },
+    {
+      "Route": "css/agregarprodu.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\4d3g3skde1-7pdpwe6z68.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001002004008"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "997"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+lZn7vIqL2Mu5rU3Qq3PoWUsXB5uHZNdXQaGqZnE6N8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:38:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"m0m+yE9SudMO9t/whMHWZG9HwTnjEC+btL5OpWDOotg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m0m+yE9SudMO9t/whMHWZG9HwTnjEC+btL5OpWDOotg="
+        }
+      ]
+    },
+    {
+      "Route": "css/agregarprodu.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\agregarprodu.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m0m+yE9SudMO9t/whMHWZG9HwTnjEC+btL5OpWDOotg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:38:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m0m+yE9SudMO9t/whMHWZG9HwTnjEC+btL5OpWDOotg="
+        }
+      ]
+    },
+    {
+      "Route": "css/agregarprodu.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\4d3g3skde1-7pdpwe6z68.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+lZn7vIqL2Mu5rU3Qq3PoWUsXB5uHZNdXQaGqZnE6N8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:38:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+lZn7vIqL2Mu5rU3Qq3PoWUsXB5uHZNdXQaGqZnE6N8="
+        }
+      ]
+    },
+    {
+      "Route": "css/agregarusu.8nt8au56jc.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\r83hxv5qn4-8nt8au56jc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001057082452"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "945"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fo8JzJM1j1andR02J6JHCtJGzDIseF4waJCQa5acFGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:48:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FJpJR6Rl/egOlc4PRJOIvvh4R3TTXY2N3BI6S+d/4kM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8nt8au56jc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/agregarusu.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FJpJR6Rl/egOlc4PRJOIvvh4R3TTXY2N3BI6S+d/4kM="
+        }
+      ]
+    },
+    {
+      "Route": "css/agregarusu.8nt8au56jc.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\agregarusu.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FJpJR6Rl/egOlc4PRJOIvvh4R3TTXY2N3BI6S+d/4kM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:48:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8nt8au56jc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/agregarusu.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FJpJR6Rl/egOlc4PRJOIvvh4R3TTXY2N3BI6S+d/4kM="
+        }
+      ]
+    },
+    {
+      "Route": "css/agregarusu.8nt8au56jc.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\r83hxv5qn4-8nt8au56jc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fo8JzJM1j1andR02J6JHCtJGzDIseF4waJCQa5acFGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:48:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8nt8au56jc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/agregarusu.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fo8JzJM1j1andR02J6JHCtJGzDIseF4waJCQa5acFGY="
+        }
+      ]
+    },
+    {
+      "Route": "css/agregarusu.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\r83hxv5qn4-8nt8au56jc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001057082452"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "945"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fo8JzJM1j1andR02J6JHCtJGzDIseF4waJCQa5acFGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:48:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FJpJR6Rl/egOlc4PRJOIvvh4R3TTXY2N3BI6S+d/4kM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FJpJR6Rl/egOlc4PRJOIvvh4R3TTXY2N3BI6S+d/4kM="
+        }
+      ]
+    },
+    {
+      "Route": "css/agregarusu.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\agregarusu.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FJpJR6Rl/egOlc4PRJOIvvh4R3TTXY2N3BI6S+d/4kM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:48:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FJpJR6Rl/egOlc4PRJOIvvh4R3TTXY2N3BI6S+d/4kM="
+        }
+      ]
+    },
+    {
+      "Route": "css/agregarusu.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\r83hxv5qn4-8nt8au56jc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fo8JzJM1j1andR02J6JHCtJGzDIseF4waJCQa5acFGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:48:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fo8JzJM1j1andR02J6JHCtJGzDIseF4waJCQa5acFGY="
+        }
+      ]
+    },
+    {
+      "Route": "css/borrarprod.6k69ihthur.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\ugr2lbe4v3-6k69ihthur.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001303780965"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "766"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C83P8LFHDJGbNqJ/8HOwYKi3pmZFm0C34qPRMgkRFJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:40:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ijAWEJEp8XWjEaSXPeUsJVlzgMrYepGXGKdmfWVBnIE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6k69ihthur"
+        },
+        {
+          "Name": "label",
+          "Value": "css/borrarprod.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ijAWEJEp8XWjEaSXPeUsJVlzgMrYepGXGKdmfWVBnIE="
+        }
+      ]
+    },
+    {
+      "Route": "css/borrarprod.6k69ihthur.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\borrarprod.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ijAWEJEp8XWjEaSXPeUsJVlzgMrYepGXGKdmfWVBnIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:40:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6k69ihthur"
+        },
+        {
+          "Name": "label",
+          "Value": "css/borrarprod.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ijAWEJEp8XWjEaSXPeUsJVlzgMrYepGXGKdmfWVBnIE="
+        }
+      ]
+    },
+    {
+      "Route": "css/borrarprod.6k69ihthur.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\ugr2lbe4v3-6k69ihthur.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C83P8LFHDJGbNqJ/8HOwYKi3pmZFm0C34qPRMgkRFJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:40:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6k69ihthur"
+        },
+        {
+          "Name": "label",
+          "Value": "css/borrarprod.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C83P8LFHDJGbNqJ/8HOwYKi3pmZFm0C34qPRMgkRFJs="
+        }
+      ]
+    },
+    {
+      "Route": "css/borrarprod.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\ugr2lbe4v3-6k69ihthur.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001303780965"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "766"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C83P8LFHDJGbNqJ/8HOwYKi3pmZFm0C34qPRMgkRFJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:40:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ijAWEJEp8XWjEaSXPeUsJVlzgMrYepGXGKdmfWVBnIE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ijAWEJEp8XWjEaSXPeUsJVlzgMrYepGXGKdmfWVBnIE="
+        }
+      ]
+    },
+    {
+      "Route": "css/borrarprod.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\borrarprod.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ijAWEJEp8XWjEaSXPeUsJVlzgMrYepGXGKdmfWVBnIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:40:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ijAWEJEp8XWjEaSXPeUsJVlzgMrYepGXGKdmfWVBnIE="
+        }
+      ]
+    },
+    {
+      "Route": "css/borrarprod.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\ugr2lbe4v3-6k69ihthur.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C83P8LFHDJGbNqJ/8HOwYKi3pmZFm0C34qPRMgkRFJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:40:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C83P8LFHDJGbNqJ/8HOwYKi3pmZFm0C34qPRMgkRFJs="
+        }
+      ]
+    },
+    {
+      "Route": "css/borrarusu.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\02uhtzie1j-gkhlrl1b8g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001242236025"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GkaNmQOUaV+OyvyAWhMrEV5xG5HB+6KAfnqIIsDGW3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MIuWyHjmJDh7pu/vn+o+iRmPCAud85bqvPXbR5lQTEM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MIuWyHjmJDh7pu/vn+o+iRmPCAud85bqvPXbR5lQTEM="
+        }
+      ]
+    },
+    {
+      "Route": "css/borrarusu.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\borrarusu.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MIuWyHjmJDh7pu/vn+o+iRmPCAud85bqvPXbR5lQTEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MIuWyHjmJDh7pu/vn+o+iRmPCAud85bqvPXbR5lQTEM="
+        }
+      ]
+    },
+    {
+      "Route": "css/borrarusu.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\02uhtzie1j-gkhlrl1b8g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GkaNmQOUaV+OyvyAWhMrEV5xG5HB+6KAfnqIIsDGW3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GkaNmQOUaV+OyvyAWhMrEV5xG5HB+6KAfnqIIsDGW3A="
+        }
+      ]
+    },
+    {
+      "Route": "css/borrarusu.gkhlrl1b8g.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\02uhtzie1j-gkhlrl1b8g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001242236025"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GkaNmQOUaV+OyvyAWhMrEV5xG5HB+6KAfnqIIsDGW3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MIuWyHjmJDh7pu/vn+o+iRmPCAud85bqvPXbR5lQTEM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gkhlrl1b8g"
+        },
+        {
+          "Name": "label",
+          "Value": "css/borrarusu.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MIuWyHjmJDh7pu/vn+o+iRmPCAud85bqvPXbR5lQTEM="
+        }
+      ]
+    },
+    {
+      "Route": "css/borrarusu.gkhlrl1b8g.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\borrarusu.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MIuWyHjmJDh7pu/vn+o+iRmPCAud85bqvPXbR5lQTEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gkhlrl1b8g"
+        },
+        {
+          "Name": "label",
+          "Value": "css/borrarusu.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MIuWyHjmJDh7pu/vn+o+iRmPCAud85bqvPXbR5lQTEM="
+        }
+      ]
+    },
+    {
+      "Route": "css/borrarusu.gkhlrl1b8g.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\02uhtzie1j-gkhlrl1b8g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GkaNmQOUaV+OyvyAWhMrEV5xG5HB+6KAfnqIIsDGW3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gkhlrl1b8g"
+        },
+        {
+          "Name": "label",
+          "Value": "css/borrarusu.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GkaNmQOUaV+OyvyAWhMrEV5xG5HB+6KAfnqIIsDGW3A="
+        }
+      ]
+    },
+    {
+      "Route": "css/editarprod.91bgwmyqn0.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\i7gxhoamba-91bgwmyqn0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001026694045"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "973"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RU/OmhmztEpV7K6XdoSVG3QU1f63ARuHeyN9CuSuYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:30:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I4ycPgIVr/7ggpFAhYXV/Q7eEWgiGegsnQKEDGytkAA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "91bgwmyqn0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/editarprod.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I4ycPgIVr/7ggpFAhYXV/Q7eEWgiGegsnQKEDGytkAA="
+        }
+      ]
+    },
+    {
+      "Route": "css/editarprod.91bgwmyqn0.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\editarprod.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3039"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I4ycPgIVr/7ggpFAhYXV/Q7eEWgiGegsnQKEDGytkAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:30:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "91bgwmyqn0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/editarprod.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I4ycPgIVr/7ggpFAhYXV/Q7eEWgiGegsnQKEDGytkAA="
+        }
+      ]
+    },
+    {
+      "Route": "css/editarprod.91bgwmyqn0.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\i7gxhoamba-91bgwmyqn0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "973"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RU/OmhmztEpV7K6XdoSVG3QU1f63ARuHeyN9CuSuYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:30:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "91bgwmyqn0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/editarprod.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2RU/OmhmztEpV7K6XdoSVG3QU1f63ARuHeyN9CuSuYc="
+        }
+      ]
+    },
+    {
+      "Route": "css/editarprod.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\i7gxhoamba-91bgwmyqn0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001026694045"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "973"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RU/OmhmztEpV7K6XdoSVG3QU1f63ARuHeyN9CuSuYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:30:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I4ycPgIVr/7ggpFAhYXV/Q7eEWgiGegsnQKEDGytkAA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I4ycPgIVr/7ggpFAhYXV/Q7eEWgiGegsnQKEDGytkAA="
+        }
+      ]
+    },
+    {
+      "Route": "css/editarprod.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\editarprod.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3039"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I4ycPgIVr/7ggpFAhYXV/Q7eEWgiGegsnQKEDGytkAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:30:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I4ycPgIVr/7ggpFAhYXV/Q7eEWgiGegsnQKEDGytkAA="
+        }
+      ]
+    },
+    {
+      "Route": "css/editarprod.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\i7gxhoamba-91bgwmyqn0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "973"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RU/OmhmztEpV7K6XdoSVG3QU1f63ARuHeyN9CuSuYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:30:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2RU/OmhmztEpV7K6XdoSVG3QU1f63ARuHeyN9CuSuYc="
+        }
+      ]
+    },
+    {
+      "Route": "css/editarusu.0ybvdcx5ti.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\540vl3h71d-0ybvdcx5ti.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001057082452"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "945"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+u2ksNEjMCTbUgjQpjNwb64zPlvAm7aaw04cRfOIFt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:46:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OHtgbv50CBIId/BAHgjqabQsrlRmDdezacboxm9p9SE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ybvdcx5ti"
+        },
+        {
+          "Name": "label",
+          "Value": "css/editarusu.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OHtgbv50CBIId/BAHgjqabQsrlRmDdezacboxm9p9SE="
+        }
+      ]
+    },
+    {
+      "Route": "css/editarusu.0ybvdcx5ti.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\editarusu.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OHtgbv50CBIId/BAHgjqabQsrlRmDdezacboxm9p9SE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:46:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ybvdcx5ti"
+        },
+        {
+          "Name": "label",
+          "Value": "css/editarusu.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OHtgbv50CBIId/BAHgjqabQsrlRmDdezacboxm9p9SE="
+        }
+      ]
+    },
+    {
+      "Route": "css/editarusu.0ybvdcx5ti.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\540vl3h71d-0ybvdcx5ti.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+u2ksNEjMCTbUgjQpjNwb64zPlvAm7aaw04cRfOIFt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:46:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ybvdcx5ti"
+        },
+        {
+          "Name": "label",
+          "Value": "css/editarusu.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+u2ksNEjMCTbUgjQpjNwb64zPlvAm7aaw04cRfOIFt4="
+        }
+      ]
+    },
+    {
+      "Route": "css/editarusu.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\540vl3h71d-0ybvdcx5ti.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001057082452"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "945"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+u2ksNEjMCTbUgjQpjNwb64zPlvAm7aaw04cRfOIFt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:46:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OHtgbv50CBIId/BAHgjqabQsrlRmDdezacboxm9p9SE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OHtgbv50CBIId/BAHgjqabQsrlRmDdezacboxm9p9SE="
+        }
+      ]
+    },
+    {
+      "Route": "css/editarusu.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\editarusu.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OHtgbv50CBIId/BAHgjqabQsrlRmDdezacboxm9p9SE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:46:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OHtgbv50CBIId/BAHgjqabQsrlRmDdezacboxm9p9SE="
+        }
+      ]
+    },
+    {
+      "Route": "css/editarusu.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\540vl3h71d-0ybvdcx5ti.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+u2ksNEjMCTbUgjQpjNwb64zPlvAm7aaw04cRfOIFt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:46:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+u2ksNEjMCTbUgjQpjNwb64zPlvAm7aaw04cRfOIFt4="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\7944882e39-msr13x47vv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001275510204"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "783"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RmUMtmgVusXTKtOJgvd6eFNvUF2DbnYN7shY4avgVbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 21:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9kk4+r2Y6KMyKYVM8ZGnm+H3nBmA2CJ2nCjii3hfAOo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9kk4+r2Y6KMyKYVM8ZGnm+H3nBmA2CJ2nCjii3hfAOo="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9kk4+r2Y6KMyKYVM8ZGnm+H3nBmA2CJ2nCjii3hfAOo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 21:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9kk4+r2Y6KMyKYVM8ZGnm+H3nBmA2CJ2nCjii3hfAOo="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\7944882e39-msr13x47vv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "783"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RmUMtmgVusXTKtOJgvd6eFNvUF2DbnYN7shY4avgVbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 21:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RmUMtmgVusXTKtOJgvd6eFNvUF2DbnYN7shY4avgVbU="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.msr13x47vv.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\7944882e39-msr13x47vv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001275510204"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "783"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RmUMtmgVusXTKtOJgvd6eFNvUF2DbnYN7shY4avgVbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 21:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9kk4+r2Y6KMyKYVM8ZGnm+H3nBmA2CJ2nCjii3hfAOo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "msr13x47vv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9kk4+r2Y6KMyKYVM8ZGnm+H3nBmA2CJ2nCjii3hfAOo="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.msr13x47vv.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9kk4+r2Y6KMyKYVM8ZGnm+H3nBmA2CJ2nCjii3hfAOo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 21:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "msr13x47vv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9kk4+r2Y6KMyKYVM8ZGnm+H3nBmA2CJ2nCjii3hfAOo="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.msr13x47vv.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\7944882e39-msr13x47vv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "783"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RmUMtmgVusXTKtOJgvd6eFNvUF2DbnYN7shY4avgVbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 21:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "msr13x47vv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RmUMtmgVusXTKtOJgvd6eFNvUF2DbnYN7shY4avgVbU="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.aopi0t39u0.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\axh5jt7v7h-aopi0t39u0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001077586207"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "927"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n98MUF+VkWketdb7nmY1keVCeVpLoJOkx7SfwThutoo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:36:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hqliaZvE+linb1WRk3jb4Adkzd/bcTi/juIsOiUWta0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aopi0t39u0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hqliaZvE+linb1WRk3jb4Adkzd/bcTi/juIsOiUWta0="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.aopi0t39u0.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2794"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hqliaZvE+linb1WRk3jb4Adkzd/bcTi/juIsOiUWta0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:36:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aopi0t39u0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hqliaZvE+linb1WRk3jb4Adkzd/bcTi/juIsOiUWta0="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.aopi0t39u0.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\axh5jt7v7h-aopi0t39u0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n98MUF+VkWketdb7nmY1keVCeVpLoJOkx7SfwThutoo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:36:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aopi0t39u0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n98MUF+VkWketdb7nmY1keVCeVpLoJOkx7SfwThutoo="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\axh5jt7v7h-aopi0t39u0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001077586207"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "927"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n98MUF+VkWketdb7nmY1keVCeVpLoJOkx7SfwThutoo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:36:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hqliaZvE+linb1WRk3jb4Adkzd/bcTi/juIsOiUWta0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hqliaZvE+linb1WRk3jb4Adkzd/bcTi/juIsOiUWta0="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2794"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hqliaZvE+linb1WRk3jb4Adkzd/bcTi/juIsOiUWta0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:36:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hqliaZvE+linb1WRk3jb4Adkzd/bcTi/juIsOiUWta0="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\axh5jt7v7h-aopi0t39u0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n98MUF+VkWketdb7nmY1keVCeVpLoJOkx7SfwThutoo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:36:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n98MUF+VkWketdb7nmY1keVCeVpLoJOkx7SfwThutoo="
+        }
+      ]
+    },
+    {
+      "Route": "css/produ.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\r50sp04rmu-q0xzzomedc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001049317943"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "952"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GwAPYYL+OujlGWU2WKZOFBf03YvLxnZ3W1UI7X5vOUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:34:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FivmCPOtVl+/dGm9QxODV7dox6QI7YRyi19BwRdC/pk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FivmCPOtVl+/dGm9QxODV7dox6QI7YRyi19BwRdC/pk="
+        }
+      ]
+    },
+    {
+      "Route": "css/produ.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\produ.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3903"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FivmCPOtVl+/dGm9QxODV7dox6QI7YRyi19BwRdC/pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:34:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FivmCPOtVl+/dGm9QxODV7dox6QI7YRyi19BwRdC/pk="
+        }
+      ]
+    },
+    {
+      "Route": "css/produ.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\r50sp04rmu-q0xzzomedc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GwAPYYL+OujlGWU2WKZOFBf03YvLxnZ3W1UI7X5vOUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:34:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GwAPYYL+OujlGWU2WKZOFBf03YvLxnZ3W1UI7X5vOUg="
+        }
+      ]
+    },
+    {
+      "Route": "css/produ.q0xzzomedc.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\r50sp04rmu-q0xzzomedc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001049317943"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "952"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GwAPYYL+OujlGWU2WKZOFBf03YvLxnZ3W1UI7X5vOUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:34:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FivmCPOtVl+/dGm9QxODV7dox6QI7YRyi19BwRdC/pk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q0xzzomedc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/produ.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FivmCPOtVl+/dGm9QxODV7dox6QI7YRyi19BwRdC/pk="
+        }
+      ]
+    },
+    {
+      "Route": "css/produ.q0xzzomedc.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\produ.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3903"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FivmCPOtVl+/dGm9QxODV7dox6QI7YRyi19BwRdC/pk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:34:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q0xzzomedc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/produ.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FivmCPOtVl+/dGm9QxODV7dox6QI7YRyi19BwRdC/pk="
+        }
+      ]
+    },
+    {
+      "Route": "css/produ.q0xzzomedc.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\r50sp04rmu-q0xzzomedc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "952"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GwAPYYL+OujlGWU2WKZOFBf03YvLxnZ3W1UI7X5vOUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:34:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q0xzzomedc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/produ.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GwAPYYL+OujlGWU2WKZOFBf03YvLxnZ3W1UI7X5vOUg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\rkys0ruw7e-faaebj49nv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001424501425"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnKnLFc3Vc3f1oEPneuoG6/fDpyUDEhh0cumE8U6Lfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:16:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"l8ItWK2uX8F4WDGa4IxmtHKRD4OQ6FmvDqMNRvTddq0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8ItWK2uX8F4WDGa4IxmtHKRD4OQ6FmvDqMNRvTddq0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2675,7 +5727,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "1568"
         },
         {
           "Name": "Content-Type",
@@ -2683,11 +5735,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"l8ItWK2uX8F4WDGa4IxmtHKRD4OQ6FmvDqMNRvTddq0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 16:26:48 GMT"
+          "Value": "Sat, 14 Dec 2024 22:16:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8ItWK2uX8F4WDGa4IxmtHKRD4OQ6FmvDqMNRvTddq0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\rkys0ruw7e-faaebj49nv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnKnLFc3Vc3f1oEPneuoG6/fDpyUDEhh0cumE8U6Lfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:16:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnKnLFc3Vc3f1oEPneuoG6/fDpyUDEhh0cumE8U6Lfk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.faaebj49nv.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\rkys0ruw7e-faaebj49nv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001424501425"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnKnLFc3Vc3f1oEPneuoG6/fDpyUDEhh0cumE8U6Lfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:16:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"l8ItWK2uX8F4WDGa4IxmtHKRD4OQ6FmvDqMNRvTddq0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "faaebj49nv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8ItWK2uX8F4WDGa4IxmtHKRD4OQ6FmvDqMNRvTddq0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.faaebj49nv.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l8ItWK2uX8F4WDGa4IxmtHKRD4OQ6FmvDqMNRvTddq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:16:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2697,7 +5894,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "faaebj49nv"
         },
         {
           "Name": "label",
@@ -2705,13 +5902,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-l8ItWK2uX8F4WDGa4IxmtHKRD4OQ6FmvDqMNRvTddq0="
         }
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css.gz",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\rkys0ruw7e-c2tiyv64ts.gz",
+      "Route": "css/site.faaebj49nv.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\rkys0ruw7e-faaebj49nv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2720,7 +5917,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "233"
+          "Value": "701"
         },
         {
           "Name": "Content-Type",
@@ -2728,11 +5925,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0ChpwSr6wHxXaZSBhjJbMcruDwPfyLjAJfSdIwHYoS0=\""
+          "Value": "\"nnKnLFc3Vc3f1oEPneuoG6/fDpyUDEhh0cumE8U6Lfk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 16:26:48 GMT"
+          "Value": "Sat, 14 Dec 2024 22:16:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2750,7 +5947,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "faaebj49nv"
         },
         {
           "Name": "label",
@@ -2758,18 +5955,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0ChpwSr6wHxXaZSBhjJbMcruDwPfyLjAJfSdIwHYoS0="
+          "Value": "sha256-nnKnLFc3Vc3f1oEPneuoG6/fDpyUDEhh0cumE8U6Lfk="
         }
       ]
     },
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\rkys0ruw7e-c2tiyv64ts.gz",
+      "Route": "css/tienda.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\h4vreof5zx-wal7mflb5l.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004273504274"
+          "Quality": "0.001259445844"
         }
       ],
       "ResponseHeaders": [
@@ -2779,15 +5976,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "233"
+          "Value": "793"
         },
         {
           "Name": "ETag",
-          "Value": "\"0ChpwSr6wHxXaZSBhjJbMcruDwPfyLjAJfSdIwHYoS0=\""
+          "Value": "\"G3NEh/wIr+B74Vg2Jm4uHjhSfDS4ceXN1c7XI/55EZM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 16:26:48 GMT"
+          "Value": "Sat, 14 Dec 2024 22:35:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2807,19 +6004,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "W/\"mOkabKi8rYJ+0pZEWBnqq1DgojdDWf22AqsUOjM/Fv4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-mOkabKi8rYJ+0pZEWBnqq1DgojdDWf22AqsUOjM/Fv4="
         }
       ]
     },
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\site.css",
+      "Route": "css/tienda.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\tienda.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2828,7 +6025,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "2754"
         },
         {
           "Name": "Content-Type",
@@ -2836,11 +6033,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"mOkabKi8rYJ+0pZEWBnqq1DgojdDWf22AqsUOjM/Fv4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 16:26:48 GMT"
+          "Value": "Sat, 14 Dec 2024 22:35:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2850,13 +6047,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-mOkabKi8rYJ+0pZEWBnqq1DgojdDWf22AqsUOjM/Fv4="
         }
       ]
     },
     {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\rkys0ruw7e-c2tiyv64ts.gz",
+      "Route": "css/tienda.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\h4vreof5zx-wal7mflb5l.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2865,7 +6062,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "233"
+          "Value": "793"
         },
         {
           "Name": "Content-Type",
@@ -2873,11 +6070,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0ChpwSr6wHxXaZSBhjJbMcruDwPfyLjAJfSdIwHYoS0=\""
+          "Value": "\"G3NEh/wIr+B74Vg2Jm4uHjhSfDS4ceXN1c7XI/55EZM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 16:26:48 GMT"
+          "Value": "Sat, 14 Dec 2024 22:35:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2895,7 +6092,466 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0ChpwSr6wHxXaZSBhjJbMcruDwPfyLjAJfSdIwHYoS0="
+          "Value": "sha256-G3NEh/wIr+B74Vg2Jm4uHjhSfDS4ceXN1c7XI/55EZM="
+        }
+      ]
+    },
+    {
+      "Route": "css/tienda.wal7mflb5l.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\h4vreof5zx-wal7mflb5l.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001259445844"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "793"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G3NEh/wIr+B74Vg2Jm4uHjhSfDS4ceXN1c7XI/55EZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mOkabKi8rYJ+0pZEWBnqq1DgojdDWf22AqsUOjM/Fv4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wal7mflb5l"
+        },
+        {
+          "Name": "label",
+          "Value": "css/tienda.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mOkabKi8rYJ+0pZEWBnqq1DgojdDWf22AqsUOjM/Fv4="
+        }
+      ]
+    },
+    {
+      "Route": "css/tienda.wal7mflb5l.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\tienda.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mOkabKi8rYJ+0pZEWBnqq1DgojdDWf22AqsUOjM/Fv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wal7mflb5l"
+        },
+        {
+          "Name": "label",
+          "Value": "css/tienda.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mOkabKi8rYJ+0pZEWBnqq1DgojdDWf22AqsUOjM/Fv4="
+        }
+      ]
+    },
+    {
+      "Route": "css/tienda.wal7mflb5l.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\h4vreof5zx-wal7mflb5l.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "793"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G3NEh/wIr+B74Vg2Jm4uHjhSfDS4ceXN1c7XI/55EZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wal7mflb5l"
+        },
+        {
+          "Name": "label",
+          "Value": "css/tienda.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G3NEh/wIr+B74Vg2Jm4uHjhSfDS4ceXN1c7XI/55EZM="
+        }
+      ]
+    },
+    {
+      "Route": "css/usuarios.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\fwx98hg7py-qjq2jndc0h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001236093943"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "808"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fm5F0Jjj+4Z6EbWwpJW0Tpf3AdISUksZEVR9Hj0wwcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:44:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Go6/zu+OVTm30PMcCIxodIpqSq+Btidk/Uab9p0Y9hs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Go6/zu+OVTm30PMcCIxodIpqSq+Btidk/Uab9p0Y9hs="
+        }
+      ]
+    },
+    {
+      "Route": "css/usuarios.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\usuarios.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Go6/zu+OVTm30PMcCIxodIpqSq+Btidk/Uab9p0Y9hs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:44:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Go6/zu+OVTm30PMcCIxodIpqSq+Btidk/Uab9p0Y9hs="
+        }
+      ]
+    },
+    {
+      "Route": "css/usuarios.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\fwx98hg7py-qjq2jndc0h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fm5F0Jjj+4Z6EbWwpJW0Tpf3AdISUksZEVR9Hj0wwcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:44:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fm5F0Jjj+4Z6EbWwpJW0Tpf3AdISUksZEVR9Hj0wwcs="
+        }
+      ]
+    },
+    {
+      "Route": "css/usuarios.qjq2jndc0h.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\fwx98hg7py-qjq2jndc0h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001236093943"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "808"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fm5F0Jjj+4Z6EbWwpJW0Tpf3AdISUksZEVR9Hj0wwcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:44:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Go6/zu+OVTm30PMcCIxodIpqSq+Btidk/Uab9p0Y9hs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qjq2jndc0h"
+        },
+        {
+          "Name": "label",
+          "Value": "css/usuarios.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Go6/zu+OVTm30PMcCIxodIpqSq+Btidk/Uab9p0Y9hs="
+        }
+      ]
+    },
+    {
+      "Route": "css/usuarios.qjq2jndc0h.css",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\wwwroot\\css\\usuarios.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Go6/zu+OVTm30PMcCIxodIpqSq+Btidk/Uab9p0Y9hs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:44:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qjq2jndc0h"
+        },
+        {
+          "Name": "label",
+          "Value": "css/usuarios.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Go6/zu+OVTm30PMcCIxodIpqSq+Btidk/Uab9p0Y9hs="
+        }
+      ]
+    },
+    {
+      "Route": "css/usuarios.qjq2jndc0h.css.gz",
+      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\fwx98hg7py-qjq2jndc0h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fm5F0Jjj+4Z6EbWwpJW0Tpf3AdISUksZEVR9Hj0wwcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 22:44:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qjq2jndc0h"
+        },
+        {
+          "Name": "label",
+          "Value": "css/usuarios.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fm5F0Jjj+4Z6EbWwpJW0Tpf3AdISUksZEVR9Hj0wwcs="
         }
       ]
     },
@@ -20262,602 +23918,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y="
-        }
-      ]
-    },
-    {
-      "Route": "pruebadesarrollo.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\mp0rtfiz09-ejot16zvq1.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001845018450"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc="
-        }
-      ]
-    },
-    {
-      "Route": "pruebadesarrollo.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\pruebadesarrollo.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1134"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc="
-        }
-      ]
-    },
-    {
-      "Route": "pruebadesarrollo.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\mp0rtfiz09-ejot16zvq1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q="
-        }
-      ]
-    },
-    {
-      "Route": "pruebadesarrollo.ejot16zvq1.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\mp0rtfiz09-ejot16zvq1.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001845018450"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ejot16zvq1"
-        },
-        {
-          "Name": "label",
-          "Value": "pruebadesarrollo.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc="
-        }
-      ]
-    },
-    {
-      "Route": "pruebadesarrollo.ejot16zvq1.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\pruebadesarrollo.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1134"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ejot16zvq1"
-        },
-        {
-          "Name": "label",
-          "Value": "pruebadesarrollo.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc="
-        }
-      ]
-    },
-    {
-      "Route": "pruebadesarrollo.ejot16zvq1.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\mp0rtfiz09-ejot16zvq1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ejot16zvq1"
-        },
-        {
-          "Name": "label",
-          "Value": "pruebadesarrollo.bundle.scp.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q="
-        }
-      ]
-    },
-    {
-      "Route": "pruebadesarrollo.ejot16zvq1.styles.css",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\ivnbt8dko8-ejot16zvq1.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001845018450"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ejot16zvq1"
-        },
-        {
-          "Name": "label",
-          "Value": "pruebadesarrollo.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc="
-        }
-      ]
-    },
-    {
-      "Route": "pruebadesarrollo.ejot16zvq1.styles.css",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\bundle\\pruebadesarrollo.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1134"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ejot16zvq1"
-        },
-        {
-          "Name": "label",
-          "Value": "pruebadesarrollo.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc="
-        }
-      ]
-    },
-    {
-      "Route": "pruebadesarrollo.ejot16zvq1.styles.css.gz",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\ivnbt8dko8-ejot16zvq1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ejot16zvq1"
-        },
-        {
-          "Name": "label",
-          "Value": "pruebadesarrollo.styles.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q="
-        }
-      ]
-    },
-    {
-      "Route": "pruebadesarrollo.styles.css",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\ivnbt8dko8-ejot16zvq1.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001845018450"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc="
-        }
-      ]
-    },
-    {
-      "Route": "pruebadesarrollo.styles.css",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\scopedcss\\bundle\\pruebadesarrollo.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1134"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hnXqaDUT/YPodG6NSZ0YCCtfjZw+bCHDz4Sl7MGAsJc="
-        }
-      ]
-    },
-    {
-      "Route": "pruebadesarrollo.styles.css.gz",
-      "AssetFile": "C:\\Users\\Patri\\Desktop\\alan\\crud\\cruddesa\\obj\\Debug\\net9.0\\compressed\\ivnbt8dko8-ejot16zvq1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "541"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 24 Nov 2024 17:48:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9LCQiF5j9qakTj1uM5O814XFsC4ow7zNBnVanOaE99Q="
         }
       ]
     }

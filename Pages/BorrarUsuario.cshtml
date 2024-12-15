@@ -1,0 +1,52 @@
+@page
+@model pruebadesarrollo.Pages.BorrarUsuarioModel
+@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Borrar Usuario";
+
+    // Obtener el rol del usuario desde la sesión
+    var userRole = HttpContext.Session.GetString("UsuarioRol");
+
+    // Verificar si el usuario tiene el rol 'Administrador'
+    if (string.IsNullOrEmpty(userRole) || userRole != "Administrador")
+    {
+        // Si no tiene el rol adecuado, redirigir a la página SinSesion
+        Response.Redirect("/SinSesion");
+    }
+}
+<head>
+    <link href="~/css/borrarusu.css" rel="stylesheet" />
+</head>
+
+<div class="mx-auto rounded border p-4" style="width:400px">
+    <h2 class="text-center mb-3">Borrar Usuario</h2>
+    <hr>
+    <p>¿Está seguro de borrar al usuario?</p>
+    <p>ID usuario: @Model.ID</p> <!-- Mostramos el ID del usuario recibido desde el PageModel -->
+    </hr>
+
+    <!-- Mostrar mensaje de éxito si existe -->
+    @if (!string.IsNullOrEmpty(Model.SuccessMessage))
+    {
+        <div class="alert alert-success mt-2">
+            @Model.SuccessMessage
+        </div>
+    }
+
+    <!-- Mostrar mensaje de error si existe -->
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+        <div class="alert alert-danger mt-2">
+            @Model.ErrorMessage
+        </div>
+    }
+
+    <form method="post">
+        <div class="row">
+            <div class="col-sm-6 d-grid">
+                <!-- Botón de borrado que ejecutará el OnPost -->
+                <button type="submit" class="btn btn-danger">Borrar</button>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,137 @@
+/* Estilos específicos para la página de inicio */
+
+/* Animaciones */
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.3);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.bounceIn {
+    animation: bounceIn 1s ease;
+}
+
+.slideUp {
+    animation: slideUp 0.8s ease-out;
+}
+
+/* Estilos del Header */
+.liquor-header {
+    background-color: #f8f9fa; /* Color de fondo del header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.liquor-nav {
+    border-bottom: 2px solid #d1d1d1;
+}
+
+.liquor-container {
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+.liquor-nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.liquor-nav-link {
+    color: #333;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.liquor-nav-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Estilos para la bienvenida */
+.liquor-main-container {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Botones */
+.btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para el footer */
+.liquor-footer {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.liquor-footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.liquor-footer a:hover {
+    color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}

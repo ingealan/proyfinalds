@@ -1,25 +1,39 @@
 ﻿@page
 @model pruebadesarrollo.Pages.IndexModel
 @{
-    ViewData["Title"] = "Página de Inicio";
+    ViewData["Title"] = "Panel de Administración - Licorería";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Bienvenido al Sistema de Gestión</h1>
-    <p>Seleccione una opción para continuar:</p>
-    
-    <!-- Acceso a la página de Productos -->
-    <a href="/Produ" class="btn btn-primary btn-">Gestionar Productos</a>
-    
-    <!-- Acceso a la página de Empleados -->
-    <a href="/Empleados" class="btn btn-danger btn">Gestionar Empleados</a>
-</div>
+<head>
+    <link href="~/css/index.css" rel="stylesheet" />
+</head>
 
-<hr/>
+<body>
+    <div class="liquor-main-container container">
+        <main role="main" class="pb-3">
+            <h1 class="bounceIn text-center">@ViewData["Title"]</h1>
 
-<div class="text-center">
-    <footer>
-        <p>Desarrollado por Alan Solano</p>
-        <p>Fecha: 12/11/2024</p>
-    </footer>
-</div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    @if (HttpContext.Session.GetString("UsuarioRol") != null)
+                    {
+                        <h2 class="slideUp">¡Hola, @HttpContext.Session.GetString("UsuarioRol")!</h2>
+                        <p>Estás logueado como: @HttpContext.Session.GetString("UsuarioRol")</p>
+                        <a href="/Logout" class="btn btn-danger popIn">Cerrar Sesión</a>
+                    }
+                    else
+                    {
+                        <h2 class="slideUp">Bienvenido a la Licorería</h2>
+                        <p>Accede a tu panel de administración para gestionar productos, ventas y más.</p>
+                        <a href="/Login" class="btn btn-primary popIn">Iniciar Sesión</a>
+                        
+                    }
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/index.js" asp-append-version="true"></script>
+</body>

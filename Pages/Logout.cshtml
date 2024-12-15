@@ -1,0 +1,15 @@
+@page
+@model pruebadesarrollo.Pages.LogoutModel
+@{
+    ViewData["Title"] = "Cerrar Sesión";
+}
+
+<h2>¡Has cerrado sesión exitosamente!</h2>
+<p>Serás redirigido al inicio...</p>
+
+<script>
+    // Redirigir al usuario después de 2 segundos
+    setTimeout(function () {
+        window.location.href = '/Index';  // Redirige a la página de inicio
+    }, 2000);
+</script>

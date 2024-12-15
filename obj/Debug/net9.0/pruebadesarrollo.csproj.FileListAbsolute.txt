@@ -183,10 +183,7 @@ C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\pruebadesarrollo.MvcA
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\pruebadesarrollo.RazorAssemblyInfo.cache
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\pruebadesarrollo.RazorAssemblyInfo.cs
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\pruebadesarrollo.sourcelink.json
-C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\scopedcss\bundle\pruebadesarrollo.styles.css
-C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\scopedcss\projectbundle\pruebadesarrollo.bundle.scp.css
-C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\rkys0ruw7e-c2tiyv64ts.gz
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\w43lf5arfx-61n19gt1b8.gz
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\1r0n5jolbh-xtxxf3hu2r.gz
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\kz3kjjm6ea-nakmwdwsxp.gz
@@ -245,8 +242,6 @@ C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\da8xw9ti01
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\m5sj81f6nt-ehgnz7f14e.gz
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\lh76xly84d-5pze98is44.gz
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\q33ha2bm7f-mlv21k5csn.gz
-C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\ivnbt8dko8-ejot16zvq1.gz
-C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\mp0rtfiz09-ejot16zvq1.gz
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -262,3 +257,16 @@ C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\refint\pruebadesarrol
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\pruebadesarrollo.pdb
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\pruebadesarrollo.genruntimeconfig.cache
 C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\ref\pruebadesarrollo.dll
+C:\Users\Patri\Desktop\alan\crud\cruddesa\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\7944882e39-msr13x47vv.gz
+C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\rkys0ruw7e-faaebj49nv.gz
+C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\i7gxhoamba-91bgwmyqn0.gz
+C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\4d3g3skde1-7pdpwe6z68.gz
+C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\ugr2lbe4v3-6k69ihthur.gz
+C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\axh5jt7v7h-aopi0t39u0.gz
+C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\r50sp04rmu-q0xzzomedc.gz
+C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\h4vreof5zx-wal7mflb5l.gz
+C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\r83hxv5qn4-8nt8au56jc.gz
+C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\02uhtzie1j-gkhlrl1b8g.gz
+C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\540vl3h71d-0ybvdcx5ti.gz
+C:\Users\Patri\Desktop\alan\crud\cruddesa\obj\Debug\net9.0\compressed\fwx98hg7py-qjq2jndc0h.gz

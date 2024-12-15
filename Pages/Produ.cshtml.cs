@@ -1,7 +1,8 @@
-using System.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.SqlClient;
+using System;
+using System.Collections.Generic;
 
 namespace pruebadesarrollo.Pages
 {
@@ -22,7 +23,7 @@ namespace pruebadesarrollo.Pages
                     connection.Open();
 
                     // Consulta SQL actualizada para la tabla Productos
-                    string sql = "SELECT ProductoID, Nombre, Categoria, Stock, Precio FROM Productos";
+                    string sql = "SELECT ProductoID, Nombre, Categoria, Stock, Precio, Imagen FROM Productos"; // Imagen debe ser una columna en la base de datos
 
                     // Ejecutando la consulta
                     using (SqlCommand command = new SqlCommand(sql, connection))
@@ -37,7 +38,8 @@ namespace pruebadesarrollo.Pages
                                 produInfo.nombre = reader.GetString(1); // Nombre del producto
                                 produInfo.categoria = reader.GetString(2); // Categoría del producto
                                 produInfo.stock = reader.GetInt32(3); // Stock del producto
-                                produInfo.precio = reader.GetDouble(4); // Usando GetDouble para leer Precio
+                                produInfo.precio = reader.GetDouble(4); // Precio del producto
+                                produInfo.imagen = reader.IsDBNull(5) ? "default-image.jpg" : reader.GetString(5); // Ruta de la imagen del producto
 
                                 // Agregando a la lista
                                 ProduList.Add(produInfo);
@@ -48,10 +50,8 @@ namespace pruebadesarrollo.Pages
             }
             catch (Exception ex)
             {
-                // Aquí se podría registrar el error de manera más eficiente
-                Console.WriteLine("Existe un error: " + ex.Message);
-                // O usar el sistema de logging de ASP.NET Core, por ejemplo:
-                // _logger.LogError(ex, "Error al obtener los productos");
+                // Manejo de error
+                Console.WriteLine("Error: " + ex.Message);
             }
         }
 
@@ -62,7 +62,8 @@ namespace pruebadesarrollo.Pages
             public string nombre { get; set; } = "";
             public string categoria { get; set; } = "";
             public int stock { get; set; }
-            public double precio { get; set; }  // Cambiar a double
+            public double precio { get; set; }
+            public string imagen { get; set; } = ""; // Ruta de la imagen
         }
     }
 }

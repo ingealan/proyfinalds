@@ -1,0 +1,47 @@
+@page
+@{
+    ViewData["Title"] = "Acceso Denegado";
+
+    // Obtener el rol del usuario desde la sesión
+    var userRole = HttpContext.Session.GetString("UsuarioRol");
+
+    // Verificar si el usuario está logueado y tiene un rol
+    bool isUserLoggedIn = !string.IsNullOrEmpty(userRole);
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/styles.css" />
+</head>
+<body>
+
+    <div class="container text-center mt-5">
+        <h1 class="display-4">Acceso Denegado</h1>
+        <p class="lead">Usted no posee permisos para entrar a este sitio web.</p>
+
+        @if (isUserLoggedIn)
+        {
+            if (userRole == "Usuario")
+            {
+                <p>Como usuario, no tiene permisos para acceder a esta página.</p>
+                <a href="/Logout" class="btn btn-danger">Cerrar sesión</a>
+            }
+            else
+            {
+                <p>Por favor, contacte al administrador si cree que esto es un error.</p>
+                <a href="/" class="btn btn-primary">Regresar al inicio</a>
+            }
+        }
+        else
+        {
+            <p>Por favor, <a href="/Login">inicie sesión</a> para acceder a esta página.</p>
+            <a href="/" class="btn btn-primary">Regresar al inicio</a>
+        }
+    </div>
+
+</body>
+</html>

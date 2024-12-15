@@ -1,13 +1,27 @@
 @page
 @model pruebadesarrollo.Pages.EditarProdu
+@using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "Editar Producto";
+
+    // Obtener el rol del usuario desde la sesión
+    var userRole = HttpContext.Session.GetString("UsuarioRol");
+
+    // Verificar si el usuario tiene el rol de "Usuario" o "Administrador"
+    if (string.IsNullOrEmpty(userRole) || (userRole != "Usuario" && userRole != "Administrador"))
+    {
+        // Redirigir a la página SinSesion si el rol no es válido
+        Response.Redirect("/SinSesion");
+    }
 }
+
+@* Enlace al archivo CSS *@
+<link href="~/css/editarprod.css" rel="stylesheet" type="text/css" />
 
 <h1>@ViewData["Title"]</h1>
 
-<div class="row">
-    <div class="col-md-8 mx-auto rounded border p-4">
+<div class="edit-container">
+    <div class="edit-form">
         <h2 class="text-center mb-5">Editar Producto</h2>
 
         @if(Model.ErrorMessage.Length > 0)
@@ -18,11 +32,10 @@
             </div>
         }
 
-        <form method="post">
+        <form method="post" enctype="multipart/form-data">
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">ID</label>
                 <div>
-                    <!-- Cambié 'ProductoID' por 'ID' ya que es la propiedad en la clase EditarProdu -->
                     <input class="form-control-plaintext" readonly asp-for="ID" type="text">
                 </div>
             </div>
@@ -36,7 +49,7 @@
             </div>
 
             <div class="row mb-3">
-                <label class="col-sm-4 col-form-label">Categoria</label>
+                <label class="col-sm-4 col-form-label">Categoría</label>
                 <div>
                     <input class="form-control" asp-for="categoria" />
                     <span asp-validation-for="categoria" class="text-danger"></span>
@@ -46,7 +59,7 @@
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Stock</label>
                 <div>
-                    <input class="form-control" asp-for="stock" />
+                    <input class="form-control" asp-for="stock" type="number" min="0" />
                     <span asp-validation-for="stock" class="text-danger"></span>
                 </div>
             </div>
@@ -54,14 +67,29 @@
             <div class="row mb-3">
                 <label class="col-sm-4 col-form-label">Precio</label>
                 <div>
-                    <input class="form-control" asp-for="precio" />
+                    <input class="form-control" asp-for="precio" type="number" step="0.01" min="0" />
                     <span asp-validation-for="precio" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Imagen (opcional)</label>
+                <div>
+                    <input class="form-control" type="file" asp-for="imagen" />
+                    <span asp-validation-for="imagen" class="text-danger"></span>
+                    @if (!string.IsNullOrEmpty(Model.imagenExistente))
+                    {
+                        <div>
+                            <strong>Imagen actual:</strong>
+                            <img src="@Url.Content("~/images/" + Model.imagenExistente)" class="img-producto" />
+                        </div>
+                    }
                 </div>
             </div>
 
             <div class="row">
                 <div class="offset-sm-4 col-sm-4 d-grid">
-                    <button type="submit" class="btn btn-primary">Editar</button>
+                    <button type="submit" class="edit-boton-inicio">Editar</button>
                 </div>
             </div>
         </form>

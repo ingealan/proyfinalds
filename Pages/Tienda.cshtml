@@ -1,0 +1,40 @@
+@page
+@model pruebadesarrollo.Pages.TiendaModel
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/tienda.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+        <h2 class="text-center mb-3">Listado de Productos</h2>
+
+        <div class="row">
+            @foreach (var produ in Model.ProduList)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="tienda-card">
+                        <!-- Usamos la ruta de la imagen almacenada en la base de datos -->
+                        <img src="~/images/@produ.imagen" class="tienda-card-img" alt="Imagen de @produ.nombre">
+                        <div class="tienda-card-body">
+                            <h5 class="tienda-card-titulo">@produ.nombre</h5>
+                            <p class="tienda-card-text">
+                                <strong>Categoría:</strong> @produ.categoria <br>
+                                <strong>Stock:</strong> @produ.stock <br>
+                                <strong>Precio:</strong> $@produ.precio.ToString("F2") <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+</body>
+</html>

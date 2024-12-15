@@ -1,22 +1,73 @@
-html {
-  font-size: 14px;
+/* Asegurar que el footer siempre se quede al fondo */
+html, body {
+  height: 100%; /* Aseguramos que el HTML y body cubran toda la altura */
+  margin: 0;
+  padding: 0;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
+/* Hacer que el contenido principal ocupe el espacio restante */
+.liquor-main-container {
+  min-height: 100%; /* Hacer que el contenedor principal tenga al menos la altura completa */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer siempre al fondo de la pantalla */
+.liquor-footer {
+  background-color: #f1f1f1;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto; /* Esto empuja el footer hacia el final */
+}
+
+/* Asegurar que los enlaces del footer estén bien estilizados */
+.liquor-footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.liquor-footer a:hover {
+  color: #0056b3;
+}
+
+/* Estilos adicionales para el header y navegación */
+.liquor-header {
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.liquor-nav {
+  border-bottom: 2px solid #d1d1d1;
+}
+
+.liquor-container {
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.liquor-nav-link {
+  color: #333;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.liquor-nav-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .liquor-nav-items {
+      flex-direction: column;
+      align-items: flex-start;
   }
-}
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
+  .liquor-nav-item {
+      margin: 10px 0;
+  }
 }

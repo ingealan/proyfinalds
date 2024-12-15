@@ -1,0 +1,200 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f3f5;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    animation: slideUp 0.8s ease-out;
+}
+
+/* Títulos */
+h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    animation: fadeIn 1s ease-out;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+    animation: fadeIn 1.2s ease-out;
+}
+
+/* Tabla */
+.produ-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-out;
+}
+
+.produ-tabla-head {
+    background-color: #007bff;
+    color: white;
+}
+
+.produ-tabla-head th {
+    padding: 12px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.produ-tabla-body td {
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+    border-bottom: 1px solid #ced4da;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Estilo de las filas */
+.produ-tabla-body tr:nth-child(odd) {
+    background-color: #f9f9f9;
+    animation: fadeIn 1.2s ease-out;
+}
+
+.produ-tabla-body tr:hover {
+    background-color: #f1f3f5;
+    animation: hoverAnimation 0.5s ease-in-out;
+}
+
+/* Botones */
+.produ-btn-info {
+    background-color: #17a2b8;
+    color: white;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    animation: fadeIn 1.3s ease-out;
+}
+
+.produ-btn-info:hover {
+    background-color: #138496;
+    transform: scale(1.1);
+    animation: hoverAnimation 0.5s ease-in-out;
+}
+
+.produ-btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    animation: fadeIn 1.3s ease-out;
+}
+
+.produ-btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+    animation: hoverAnimation 0.5s ease-in-out;
+}
+
+.produ-btn-danger {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    animation: fadeIn 1.3s ease-out;
+}
+
+.produ-btn-danger:hover {
+    background-color: #c82333;
+    transform: scale(1.1);
+    animation: hoverAnimation 0.5s ease-in-out;
+}
+
+/* Estilo de imagen oculta */
+.image-container {
+    background-color: #f8f9fa;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    animation: fadeIn 1.5s ease-out;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes hoverAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .produ-tabla th, .produ-tabla td {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .produ-btn-info, .produ-btn-primary, .produ-btn-danger {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+}
