@@ -1,84 +1,43 @@
--- 1. Crear la base de datos 'desarrollocrud'
-CREATE DATABASE desarrollocrud;
+USE [desarrollocrud]
 GO
-
--- 2. Usar la base de datos recién creada
-USE desarrollocrud;
+/****** Object:  Table [dbo].[Productos]    Script Date: 15/12/2024 10:51:35 ******/
+SET ANSI_NULLS ON
 GO
-
-/****** Script para la creación de la tabla Productos ******/
-SET ANSI_NULLS ON;
+SET QUOTED_IDENTIFIER ON
 GO
-
-SET QUOTED_IDENTIFIER ON;
+CREATE TABLE [dbo].[Productos](
+      [ProductoID] [int] IDENTITY(1,1) NOT NULL,
+      [Nombre] [nvarchar](150) NOT NULL,
+      [Descripcion] [nvarchar](255) NULL,
+      [Precio] [float] NOT NULL,
+      [Stock] [int] NOT NULL,
+      [FechaVencimiento] [date] NULL,
+      [Categoria] [nvarchar](50) NULL,
+      [FechaIngreso] [date] NOT NULL,
+      [Imagen] [nvarchar](255) NULL,
+PRIMARY KEY CLUSTERED
+(
+      [ProductoID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
 GO
-
--- Crear tabla Productos
-CREATE TABLE Productos (
-    -- Definición de columnas
-    ProductoID INT IDENTITY(1,1) NOT NULL,         -- Clave primaria autoincremental
-    Nombre NVARCHAR(100) NOT NULL,                -- Nombre del producto
-    Precio FLOAT NOT NULL,                        -- Precio del producto
-    Stock INT NOT NULL,                           -- Stock disponible
-    FechaVencimiento DATE NULL,                   -- Fecha de vencimiento (opcional)
-    Categoria NVARCHAR(50) NULL,                  -- Categoría del producto (opcional)
-    FechaIngreso DATE NOT NULL,                   -- Fecha de ingreso del producto
-    RutaImagen NVARCHAR(255) NULL,                -- Ruta de la imagen del producto (opcional)
-
-    -- Clave primaria
-    CONSTRAINT PK_Productos PRIMARY KEY CLUSTERED 
-    (
-        ProductoID ASC
-    ) WITH (
-        PAD_INDEX = OFF, 
-        STATISTICS_NORECOMPUTE = OFF, 
-        IGNORE_DUP_KEY = OFF, 
-        ALLOW_ROW_LOCKS = ON, 
-        ALLOW_PAGE_LOCKS = ON, 
-        OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF
-    ) ON [PRIMARY]
-) ON [PRIMARY];
+/****** Object:  Table [dbo].[Usuarios]    Script Date: 15/12/2024 10:51:35 ******/
+SET ANSI_NULLS ON
 GO
-
-/****** Script para la creación de la tabla Usuarios ******/
-SET ANSI_NULLS ON;
+SET QUOTED_IDENTIFIER ON
 GO
-
-SET QUOTED_IDENTIFIER ON;
-GO
-
--- Crear tabla Usuarios
-CREATE TABLE Usuarios (
-    -- Definición de columnas
-    UserID INT IDENTITY(1,1) NOT NULL,           -- Clave primaria autoincremental
-    Username NVARCHAR(50) NOT NULL,              -- Nombre de usuario
-    PasswordHash NVARCHAR(255) NOT NULL,         -- Contraseña en forma de hash
-    Rol NVARCHAR(20) NOT NULL,                   -- Rol del usuario (Admin, Usuario, etc.)
-
-    -- Clave primaria
-    CONSTRAINT PK_Usuarios PRIMARY KEY CLUSTERED 
-    (
-        UserID ASC
-    ) WITH (
-        PAD_INDEX = OFF, 
-        STATISTICS_NORECOMPUTE = OFF, 
-        IGNORE_DUP_KEY = OFF, 
-        ALLOW_ROW_LOCKS = ON, 
-        ALLOW_PAGE_LOCKS = ON, 
-        OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF
-    ) ON [PRIMARY],
-
-    -- Índice único para el campo Username
-    CONSTRAINT UQ_Username UNIQUE NONCLUSTERED 
-    (
-        Username ASC
-    ) WITH (
-        PAD_INDEX = OFF, 
-        STATISTICS_NORECOMPUTE = OFF, 
-        IGNORE_DUP_KEY = OFF, 
-        ALLOW_ROW_LOCKS = ON, 
-        ALLOW_PAGE_LOCKS = ON, 
-        OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF
-    ) ON [PRIMARY]
-) ON [PRIMARY];
+CREATE TABLE [dbo].[Usuarios](
+      [UserID] [int] IDENTITY(1,1) NOT NULL,
+      [Username] [nvarchar](100) NOT NULL,
+      [PasswordHash] [nvarchar](256) NOT NULL,
+      [Role] [nvarchar](50) NOT NULL,
+PRIMARY KEY CLUSTERED
+(
+      [UserID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
+UNIQUE NONCLUSTERED
+(
+      [Username] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
 GO
